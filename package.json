@@ -1,0 +1,47 @@
+{
+  "name": "docpad-plugin-csv",
+  "version": "0.1.0",
+  "description": "Adds support for csv (data mapping) to DocPad",
+  "homepage": "https://github.com/bevry/docpad-extras",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "csv",
+    "templates",
+    "templating",
+    "template"
+  ],
+  "author": {
+    "name": "Cerebus Software CC",
+    "email": "peter@cerebus.co.za",
+    "url": "http://www.cerebus.co.za"
+  },
+  "maintainers": [
+    {
+      "name": "Benjamin Lupton",
+      "email": "b@lupton.cc",
+      "url": "http://balupton.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/bevry/docpad-extras/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/bevry/docpad-extras.git"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "docpad": ">=6.1.x"
+  },
+  "dependencies": {
+    "bal-util": "1.13.x"
+  },
+  "main": "./out/csv.plugin.js",
+  "scripts": {
+    "test": "node ./test/csv.test.js"
+  },
+  "readme": "# csv Plugin for DocPad\nThis plugin provides [DocPad](https://github.com/bevry/docpad) with csv data mappings.",
+  "_id": "docpad-plugin-csv@0.1.0",
+  "_from": "docpad-plugin-csv"
+}
