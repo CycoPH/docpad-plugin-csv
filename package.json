@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "bal-util": "1.13.x",
-    "csv": ">=0.0.19"
+    "csv": ">=0.2.1"
   },
   "main": "./out/csv.plugin.js",
   "readme": "# csv Plugin for DocPad\nThis plugin provides [DocPad](https://github.com/bevry/docpad) with csv data mappings."

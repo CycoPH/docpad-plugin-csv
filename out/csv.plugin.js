@@ -122,7 +122,7 @@
           if (csvParsedData === undefined) {
             csv.csvData = {};
             csvUtils()
-              .fromPath(csv.path, {trim: true})
+              .from.path(csv.path, {trim: true})
               .on('data', function(data, index) {csv.csvData[data[0]] = data[1]; })
               .on('end', function(count) {
                   csv.plugin.foundCSVs[csv.name] = csv.csvData;
