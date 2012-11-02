@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-csv",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Adds support for csv (data mapping) to DocPad",
   "homepage": "https://github.com/bevry/docpad-extras",
   "keywords": [
